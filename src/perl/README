@@ -1,0 +1,70 @@
+README for Config::IniFile::Subst 1.0.1
+
+
+=head1 NAME
+
+Config::IniFile::Subst - Flexible processing of INI files with substitution of variables
+
+
+=head1 SYNOPSIS
+
+  use Config::IniFile::Subst;
+  $ini = Config::IniFile::Subst->new(@inifiles);
+  $ini->read(@inifiles);
+  $ini->get($key, $default);
+  $ini->add($key, $value);
+  $ini->set($key, $value);
+  $ini->delete($key);
+  $ini->keys($section);
+  $ini->sections();
+  $ini->write($file, @comment);
+
+
+=head1 DEPENDENCIES
+
+This module has external dependencies on the following modules:
+
+ Carp
+ File::Spec
+ IO::File
+ IO::Handle
+ version
+
+This module needs for building:
+
+ Test::More
+ Test::Pod
+ Test::Pod::Coverage
+
+=head1 INSTALLATION
+
+ perl Makefile.PL
+ make
+ make test
+
+and if all goes well
+
+ make install
+
+
+=head1 HISTORY
+
+See the F<Changes> file.
+
+
+=head1 AUTHOR
+
+Gisbert W. Selke E<lt>gisbert@tapirsoft.deE<gt>
+
+
+=head1 COPYRIGHT
+
+Copyright (C) 1999-2026 by TapirSoft Gisbert & Harald Selke GbR, http://www.tapirsoft.de
+
+This module is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
+
+
+=head1 SEE ALSO
+
+Other configuration management modules, in particular those in namespace Config::.
