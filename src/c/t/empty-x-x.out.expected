@@ -1,0 +1,173 @@
+
+Liste aller Schluessel:
+
+Liste der Abschnitte:
+
+Anzahl Kommentare: 0
+
+1. Runde (nichtdestruktiv), mit Default-Fallback '(null)':
+Schluessel <Key1>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[ ]Key2>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <Test>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <logfile>:
+  Schluessel ohne Default      : <IniFile.log>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <errfile>:
+  Schluessel ohne Default      : <IniFile.err>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[]Test>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[dummy]Test>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[dummy]Testdir>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <Test2>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+
+2. Runde (nichtdestruktiv), mit Fallback '':
+Schluessel <Key1>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[ ]Key2>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <Test>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <logfile>:
+  Schluessel ohne Default      : <IniFile.log>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <errfile>:
+  Schluessel ohne Default      : <IniFile.err>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[]Test>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[dummy]Test>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[dummy]Testdir>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <Test2>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+
+3. Runde (destruktiv):
+Schluessel <Key1>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+  Setzen auf 'Testwert'...
+  Schluessel mit  Default 'nix': <Testwert>
+  Entfernen...
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[ ]Key2>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+  Setzen auf 'Testwert'...
+  Schluessel mit  Default 'nix': <Testwert>
+  Entfernen...
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <Test>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+  Setzen auf 'Testwert'...
+  Schluessel mit  Default 'nix': <Testwert>
+  Entfernen...
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <logfile>:
+  Schluessel ohne Default      : <IniFile.log>
+  Schluessel mit  Default 'nix': <nix>
+  Setzen auf 'Testwert'...
+  Schluessel mit  Default 'nix': <Testwert>
+  Entfernen...
+  Schluessel ohne Default      : <IniFile.log>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <errfile>:
+  Schluessel ohne Default      : <IniFile.err>
+  Schluessel mit  Default 'nix': <nix>
+  Setzen auf 'Testwert'...
+  Schluessel mit  Default 'nix': <Testwert>
+  Entfernen...
+  Schluessel ohne Default      : <IniFile.err>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[]Test>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+  Setzen auf 'Testwert'...
+  Schluessel mit  Default 'nix': <Testwert>
+  Entfernen...
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[dummy]Test>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+  Setzen auf 'Testwert'...
+  Schluessel mit  Default 'nix': <Testwert>
+  Entfernen...
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[dummy]Testdir>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+  Setzen auf 'Testwert'...
+  Schluessel mit  Default 'nix': <Testwert>
+  Entfernen...
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <Test2>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+  Setzen auf 'Testwert'...
+  Schluessel mit  Default 'nix': <Testwert>
+  Entfernen...
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+
+Anzahl Kommentare: 1
+Dies ist ein neuer Kommentar
+
+Schreibe Ini-Datei nach stdout
+# Neuer Kommentar Zeile 1
+# Und Zeile 2
+
+Hilfsfunktionen
+fixdir0 <>: <>
+fixdir1 <>: <>
+fixdir2 <>: <>
+adddir0 <>: <>
+adddir1 <>: <>
+catfile <> <>: <>
+
+Informationsfunktionen
+Versionsnummer: 0114
+Versionsstring: 1.20
+Lizenz: IniFile is an open source library for managing configuration files.
+It may be used under the Artistic License 2.0
+(https://opensource.org/licenses/artistic-license-2.0).
+Copyright (C) 1998-2021 TapirSoft Gisbert und Harald Selke GbR
+Keine Fehler in den Konfigurationsdateien
+
+INI-Werte nach Destroy: 0
+Schluessel <Key1>: <nix>
+Schluessel <[ ]Key2>: <nix>
+Schluessel <Test>: <nix>
+Schluessel <logfile>: <nix>
+Schluessel <errfile>: <nix>
+Schluessel <[]Test>: <nix>
+Schluessel <[dummy]Test>: <nix>
+Schluessel <[dummy]Testdir>: <nix>
+Schluessel <Test2>: <nix>

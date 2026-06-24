@@ -1,0 +1,85 @@
+INI-Datei: t\01-general.ini; kumulierte Anzahl Schluessel/Abschnitte: 38/2
+
+Liste aller Schluessel:
+Schluessel <KEY01>: <test\tspace>
+Schluessel <KEY02>: <test	space>
+Schluessel <KEY03>: <test\tspace>
+Schluessel <KEY04>: <test	space>
+Schluessel <KEY05>: <test	space>
+Schluessel <KEY06>: <test\tspace>
+Schluessel <KEY10>: <testspace>
+Schluessel <KEY11>: <testspace>
+Schluessel <KEY12>: <testspace>
+Schluessel <KEY13>: <test
+space>
+Schluessel <KEY14>: <testspace>
+Schluessel <KEY15>: <testspace>
+Schluessel <KEY16>: <test'space>
+Schluessel <KEY17>: <test"space>
+Schluessel <KEY18>: <test?space>
+Schluessel <KEY19>: <test\space>
+Schluessel <KEY20>: <test'space>
+Schluessel <KEY21>: <test"space>
+Schluessel <KEY22>: <testspace>
+Schluessel <KEY23>: <test	space>
+Schluessel <KEY24>: <test	space>
+Schluessel <KEY25>: <test	4space>
+Schluessel <KEY26>: <test8space>
+Schluessel <KEY27>: <test	space>
+Schluessel <KEY28>: <test	space>
+Schluessel <KEY29>: <test	4space>
+Schluessel <KEY30>: <testspace>
+Schluessel <KEY31>: <test\space>
+Schluessel <KEY32>: <testspace>
+Schluessel <KEY33>: <testspace	>
+Schluessel <KEY34>: <testspace	>
+Schluessel <KEY35>: <testspace\>
+Schluessel <KEY36>: <testspace>
+Schluessel <KEY37>: <testspace	>
+Schluessel <KEY50>: <test\tspace>
+Schluessel <KEY60>: <test\tspace>
+Schluessel <KEY61>: <test	space>
+Schluessel <[SECTIONA]KEY01>: <test	space>
+
+Liste der Abschnitte:
+<>: 37 Schluessel
+  Schluessel <KEY01>: <test\tspace>
+  Schluessel <KEY02>: <test	space>
+  Schluessel <KEY03>: <test\tspace>
+  Schluessel <KEY04>: <test	space>
+  Schluessel <KEY05>: <test	space>
+  Schluessel <KEY06>: <test\tspace>
+  Schluessel <KEY10>: <testspace>
+  Schluessel <KEY11>: <testspace>
+  Schluessel <KEY12>: <testspace>
+  Schluessel <KEY13>: <test
+space>
+  Schluessel <KEY14>: <testspace>
+  Schluessel <KEY15>: <testspace>
+  Schluessel <KEY16>: <test'space>
+  Schluessel <KEY17>: <test"space>
+  Schluessel <KEY18>: <test?space>
+  Schluessel <KEY19>: <test\space>
+  Schluessel <KEY20>: <test'space>
+  Schluessel <KEY21>: <test"space>
+  Schluessel <KEY22>: <testspace>
+  Schluessel <KEY23>: <test	space>
+  Schluessel <KEY24>: <test	space>
+  Schluessel <KEY25>: <test	4space>
+  Schluessel <KEY26>: <test8space>
+  Schluessel <KEY27>: <test	space>
+  Schluessel <KEY28>: <test	space>
+  Schluessel <KEY29>: <test	4space>
+  Schluessel <KEY30>: <testspace>
+  Schluessel <KEY31>: <test\space>
+  Schluessel <KEY32>: <testspace>
+  Schluessel <KEY33>: <testspace	>
+  Schluessel <KEY34>: <testspace	>
+  Schluessel <KEY35>: <testspace\>
+  Schluessel <KEY36>: <testspace>
+  Schluessel <KEY37>: <testspace	>
+  Schluessel <KEY50>: <test\tspace>
+  Schluessel <KEY60>: <test\tspace>
+  Schluessel <KEY61>: <test	space>
+<[SECTIONA]>: 1 Schluessel
+  Schluessel <[SECTIONA]KEY01>: <test	space>

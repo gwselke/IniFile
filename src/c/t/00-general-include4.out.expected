@@ -1,0 +1,77 @@
+INI-Datei: t\00-general.ini; kumulierte Anzahl Schluessel/Abschnitte: 19/3
+INI-Datei: t\00-include4.ini; kumulierte Anzahl Schluessel/Abschnitte: 34/3
+
+Liste aller Schluessel:
+Schluessel <ERRFILE>: </foo/bar\my.err>
+Schluessel <KEY1>: <wert1>
+Schluessel <KEY10>: <more test>
+Schluessel <KEY11>: <>
+Schluessel <KEY12>: <>
+Schluessel <KEY2>: <"wert2>
+Schluessel <KEY20>: <rhabarber plus>
+Schluessel <KEY21>: <rhabarber>
+Schluessel <KEY22>: <rha"wert2barwert1ber>
+Schluessel <KEY23>: <rha"wert2barber>
+Schluessel <KEY24>: <%key24%>
+Schluessel <KEY25>: <rha%key24%barblubber ber>
+Schluessel <KEY26>: <rose = rose = rose>
+Schluessel <KEY3>: <>
+Schluessel <KEY4>: <bla#bla>
+Schluessel <KEY5>: <blabla #>
+Schluessel <KEY6>: <blubber >
+Schluessel <KEY7>: <key7a>
+Schluessel <KEY8>: <key8a>
+Schluessel <KEY9>: <test\tspace>
+Schluessel <TESTDIR1>: </foo/bar>
+Schluessel <TESTDIR2>: </foo/bar/>
+Schluessel <TESTDIR3>: </foo/bar\>
+Schluessel <[SECTIONA]KEY1>: <key1a>
+Schluessel <[SECTIONA]KEY2>: <key2x>
+Schluessel <[SECTIONB]KEY1>: <key1b>
+Schluessel <[SECTIONB]KEY27>: <key27a>
+Schluessel <[SECTIONB]KEY28>: <key2x>
+Schluessel <[SECTIONB]KEY29>: <"wert2>
+Schluessel <[SECTIONB]KEY30>: <"wert2>
+Schluessel <[SECTIONB]KEY31>: <"wert2>
+Schluessel <[SECTIONB]KEY32>: <% key2%>
+Schluessel <[SECTIONB]KEY33>: <%key2 %>
+Schluessel <[SECTIONB]KEY34>: <%  key2  %>
+
+Liste der Abschnitte:
+<>: 23 Schluessel
+  Schluessel <ERRFILE>: </foo/bar\my.err>
+  Schluessel <KEY1>: <wert1>
+  Schluessel <KEY10>: <more test>
+  Schluessel <KEY11>: <>
+  Schluessel <KEY12>: <>
+  Schluessel <KEY2>: <"wert2>
+  Schluessel <KEY20>: <rhabarber plus>
+  Schluessel <KEY21>: <rhabarber>
+  Schluessel <KEY22>: <rha"wert2barwert1ber>
+  Schluessel <KEY23>: <rha"wert2barber>
+  Schluessel <KEY24>: <%key24%>
+  Schluessel <KEY25>: <rha%key24%barblubber ber>
+  Schluessel <KEY26>: <rose = rose = rose>
+  Schluessel <KEY3>: <>
+  Schluessel <KEY4>: <bla#bla>
+  Schluessel <KEY5>: <blabla #>
+  Schluessel <KEY6>: <blubber >
+  Schluessel <KEY7>: <key7a>
+  Schluessel <KEY8>: <key8a>
+  Schluessel <KEY9>: <test\tspace>
+  Schluessel <TESTDIR1>: </foo/bar>
+  Schluessel <TESTDIR2>: </foo/bar/>
+  Schluessel <TESTDIR3>: </foo/bar\>
+<[SECTIONA]>: 2 Schluessel
+  Schluessel <[SECTIONA]KEY1>: <key1a>
+  Schluessel <[SECTIONA]KEY2>: <key2x>
+<[SECTIONB]>: 9 Schluessel
+  Schluessel <[SECTIONB]KEY1>: <key1b>
+  Schluessel <[SECTIONB]KEY27>: <key27a>
+  Schluessel <[SECTIONB]KEY28>: <key2x>
+  Schluessel <[SECTIONB]KEY29>: <"wert2>
+  Schluessel <[SECTIONB]KEY30>: <"wert2>
+  Schluessel <[SECTIONB]KEY31>: <"wert2>
+  Schluessel <[SECTIONB]KEY32>: <% key2%>
+  Schluessel <[SECTIONB]KEY33>: <%key2 %>
+  Schluessel <[SECTIONB]KEY34>: <%  key2  %>

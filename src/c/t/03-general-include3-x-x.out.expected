@@ -1,0 +1,189 @@
+INI-Datei: t\03-general.ini; kumulierte Anzahl Schluessel/Abschnitte: 3/2
+INI-Datei: t\03-include3.ini; kumulierte Anzahl Schluessel/Abschnitte: 3/2
+
+Liste aller Schluessel:
+Schluessel <TEST>: <wert1>
+Schluessel <[DUMMY]TEST2>: <wert2>
+Schluessel <[DUMMY]TESTDIR>: <wert3>
+
+Liste der Abschnitte:
+<>: 1 Schluessel
+  Schluessel <TEST>: <wert1>
+<[DUMMY]>: 2 Schluessel
+  Schluessel <[DUMMY]TEST2>: <wert2>
+  Schluessel <[DUMMY]TESTDIR>: <wert3>
+
+Anzahl Kommentare: 4
+ test file 3 for IniFile: fallbacks
+ alternative comment
+ still a different form of comment
+ include test file 3 for IniFile (use with 03-config.ini)
+
+1. Runde (nichtdestruktiv), mit Default-Fallback '':
+Schluessel <Key1>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[ ]Key2>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <Test>:
+  Schluessel ohne Default      : <wert1>
+  Schluessel mit  Default 'nix': <wert1>
+Schluessel <logfile>:
+  Schluessel ohne Default      : <t\03-general.log>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <errfile>:
+  Schluessel ohne Default      : <t\03-general.err>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[]Test>:
+  Schluessel ohne Default      : <wert1>
+  Schluessel mit  Default 'nix': <wert1>
+Schluessel <[dummy]Test>:
+  Schluessel ohne Default      : <wert1>
+  Schluessel mit  Default 'nix': <wert1>
+Schluessel <[dummy]Testdir>:
+  Schluessel ohne Default      : <wert3>
+  Schluessel mit  Default 'nix': <wert3>
+Schluessel <Test2>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+
+2. Runde (nichtdestruktiv), mit Fallback '':
+Schluessel <Key1>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[ ]Key2>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <Test>:
+  Schluessel ohne Default      : <wert1>
+  Schluessel mit  Default 'nix': <wert1>
+Schluessel <logfile>:
+  Schluessel ohne Default      : <t\03-general.log>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <errfile>:
+  Schluessel ohne Default      : <t\03-general.err>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[]Test>:
+  Schluessel ohne Default      : <wert1>
+  Schluessel mit  Default 'nix': <wert1>
+Schluessel <[dummy]Test>:
+  Schluessel ohne Default      : <wert1>
+  Schluessel mit  Default 'nix': <wert1>
+Schluessel <[dummy]Testdir>:
+  Schluessel ohne Default      : <wert3>
+  Schluessel mit  Default 'nix': <wert3>
+Schluessel <Test2>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+
+3. Runde (destruktiv):
+Schluessel <Key1>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+  Setzen auf 'Testwert'...
+  Schluessel mit  Default 'nix': <Testwert>
+  Entfernen...
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[ ]Key2>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+  Setzen auf 'Testwert'...
+  Schluessel mit  Default 'nix': <Testwert>
+  Entfernen...
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <Test>:
+  Schluessel ohne Default      : <wert1>
+  Schluessel mit  Default 'nix': <wert1>
+  Setzen auf 'Testwert'...
+  Schluessel mit  Default 'nix': <Testwert>
+  Entfernen...
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <logfile>:
+  Schluessel ohne Default      : <t\03-general.log>
+  Schluessel mit  Default 'nix': <nix>
+  Setzen auf 'Testwert'...
+  Schluessel mit  Default 'nix': <Testwert>
+  Entfernen...
+  Schluessel ohne Default      : <t\03-general.log>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <errfile>:
+  Schluessel ohne Default      : <t\03-general.err>
+  Schluessel mit  Default 'nix': <nix>
+  Setzen auf 'Testwert'...
+  Schluessel mit  Default 'nix': <Testwert>
+  Entfernen...
+  Schluessel ohne Default      : <t\03-general.err>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[]Test>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+  Setzen auf 'Testwert'...
+  Schluessel mit  Default 'nix': <Testwert>
+  Entfernen...
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[dummy]Test>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+  Setzen auf 'Testwert'...
+  Schluessel mit  Default 'nix': <Testwert>
+  Entfernen...
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[dummy]Testdir>:
+  Schluessel ohne Default      : <wert3>
+  Schluessel mit  Default 'nix': <wert3>
+  Setzen auf 'Testwert'...
+  Schluessel mit  Default 'nix': <Testwert>
+  Entfernen...
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <Test2>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+  Setzen auf 'Testwert'...
+  Schluessel mit  Default 'nix': <Testwert>
+  Entfernen...
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+
+Anzahl Kommentare: 5
+ test file 3 for IniFile: fallbacks
+ alternative comment
+ still a different form of comment
+ include test file 3 for IniFile (use with 03-config.ini)
+Dies ist ein neuer Kommentar
+
+Schreibe neue Ini-Datei t\03-general.ini.new
+
+Hilfsfunktionen
+fixdir0 <>: <>
+fixdir1 <>: <>
+fixdir2 <>: <>
+adddir0 <>: <>
+adddir1 <>: <>
+catfile <> <>: <>
+
+Informationsfunktionen
+Versionsnummer: 0114
+Versionsstring: 1.20
+Lizenz: IniFile is an open source library for managing configuration files.
+It may be used under the Artistic License 2.0
+(https://opensource.org/licenses/artistic-license-2.0).
+Copyright (C) 1998-2021 TapirSoft Gisbert und Harald Selke GbR
+Keine Fehler in den Konfigurationsdateien
+
+INI-Werte nach Destroy: 0
+Schluessel <Key1>: <nix>
+Schluessel <[ ]Key2>: <nix>
+Schluessel <Test>: <nix>
+Schluessel <logfile>: <nix>
+Schluessel <errfile>: <nix>
+Schluessel <[]Test>: <nix>
+Schluessel <[dummy]Test>: <nix>
+Schluessel <[dummy]Testdir>: <nix>
+Schluessel <Test2>: <nix>

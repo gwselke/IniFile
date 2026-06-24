@@ -1,0 +1,44 @@
+#  test file 1 for IniFile
+#  include test file 1 for IniFile (use with 01-config.ini)
+#  include test file 2 for IniFile (use with 01-config.ini)
+# Dies ist ein neuer Kommentar
+KEY01=test\tspace
+resolve_escapes: 1
+KEY02=test\x09space
+KEY03=test\\tspace
+KEY04=test\x09space
+KEY05=test\x09space
+KEY06=test\\tspace
+KEY10=test\x07space
+KEY11=test\x08space
+KEY12=test\x0cspace
+KEY13=test\x0aspace
+KEY14=test\x0dspace
+KEY15=test\x0bspace
+KEY16=test'space
+KEY17=test"space
+KEY18=test?space
+KEY19=test\\space
+KEY20=test'space
+KEY21=test"space
+KEY22=test\x07space
+KEY23=test\x09space
+KEY24=test\x09space
+KEY25=test\x094space
+KEY26=test\x078space
+KEY27=test\x09space
+KEY28=test\x09space
+KEY29=test\x094space
+KEY30=testspace
+KEY31=test\\space
+KEY32=testspace
+KEY33="testspace\x09"
+KEY34="testspace\x09"
+KEY35=testspace\\
+KEY36=testspace\x07
+KEY37="testspace\x09"
+KEY50=test\\tspace
+KEY60=test\\tspace
+KEY61=test\x09space
+[SECTIONA]
+KEY01=test\x09space

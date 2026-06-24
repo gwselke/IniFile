@@ -1,0 +1,4 @@
+# Neuer Kommentar Zeile 1
+# Und Zeile 2
+BASIS=test.icl
+TESTDIR=/foo/bar

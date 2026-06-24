@@ -1,0 +1,167 @@
+INI-Datei: t\01-general.ini; kumulierte Anzahl Schluessel/Abschnitte: 38/2
+
+Liste aller Schluessel:
+Schluessel <KEY01>: <test\tspace>
+Schluessel <KEY02>: <test	space>
+Schluessel <KEY03>: <test\tspace>
+Schluessel <KEY04>: <test	space>
+Schluessel <KEY05>: <test	space>
+Schluessel <KEY06>: <test\tspace>
+Schluessel <KEY10>: <testspace>
+Schluessel <KEY11>: <testspace>
+Schluessel <KEY12>: <testspace>
+Schluessel <KEY13>: <test
+space>
+Schluessel <KEY14>: <testspace>
+Schluessel <KEY15>: <testspace>
+Schluessel <KEY16>: <test'space>
+Schluessel <KEY17>: <test"space>
+Schluessel <KEY18>: <test?space>
+Schluessel <KEY19>: <test\space>
+Schluessel <KEY20>: <test'space>
+Schluessel <KEY21>: <test"space>
+Schluessel <KEY22>: <testspace>
+Schluessel <KEY23>: <test	space>
+Schluessel <KEY24>: <test	space>
+Schluessel <KEY25>: <test	4space>
+Schluessel <KEY26>: <test8space>
+Schluessel <KEY27>: <test	space>
+Schluessel <KEY28>: <test	space>
+Schluessel <KEY29>: <test	4space>
+Schluessel <KEY30>: <testspace>
+Schluessel <KEY31>: <test\space>
+Schluessel <KEY32>: <testspace>
+Schluessel <KEY33>: <testspace	>
+Schluessel <KEY34>: <testspace	>
+Schluessel <KEY35>: <testspace\>
+Schluessel <KEY36>: <testspace>
+Schluessel <KEY37>: <testspace	>
+Schluessel <KEY50>: <test\tspace>
+Schluessel <KEY60>: <test\tspace>
+Schluessel <KEY61>: <test	space>
+Schluessel <[SECTIONA]KEY01>: <test	space>
+
+Liste der Abschnitte:
+<>: 37 Schluessel
+  Schluessel <KEY01>: <test\tspace>
+  Schluessel <KEY02>: <test	space>
+  Schluessel <KEY03>: <test\tspace>
+  Schluessel <KEY04>: <test	space>
+  Schluessel <KEY05>: <test	space>
+  Schluessel <KEY06>: <test\tspace>
+  Schluessel <KEY10>: <testspace>
+  Schluessel <KEY11>: <testspace>
+  Schluessel <KEY12>: <testspace>
+  Schluessel <KEY13>: <test
+space>
+  Schluessel <KEY14>: <testspace>
+  Schluessel <KEY15>: <testspace>
+  Schluessel <KEY16>: <test'space>
+  Schluessel <KEY17>: <test"space>
+  Schluessel <KEY18>: <test?space>
+  Schluessel <KEY19>: <test\space>
+  Schluessel <KEY20>: <test'space>
+  Schluessel <KEY21>: <test"space>
+  Schluessel <KEY22>: <testspace>
+  Schluessel <KEY23>: <test	space>
+  Schluessel <KEY24>: <test	space>
+  Schluessel <KEY25>: <test	4space>
+  Schluessel <KEY26>: <test8space>
+  Schluessel <KEY27>: <test	space>
+  Schluessel <KEY28>: <test	space>
+  Schluessel <KEY29>: <test	4space>
+  Schluessel <KEY30>: <testspace>
+  Schluessel <KEY31>: <test\space>
+  Schluessel <KEY32>: <testspace>
+  Schluessel <KEY33>: <testspace	>
+  Schluessel <KEY34>: <testspace	>
+  Schluessel <KEY35>: <testspace\>
+  Schluessel <KEY36>: <testspace>
+  Schluessel <KEY37>: <testspace	>
+  Schluessel <KEY50>: <test\tspace>
+  Schluessel <KEY60>: <test\tspace>
+  Schluessel <KEY61>: <test	space>
+<[SECTIONA]>: 1 Schluessel
+  Schluessel <[SECTIONA]KEY01>: <test	space>
+
+Anzahl Kommentare: 3
+ test file 1 for IniFile
+ include test file 1 for IniFile (use with 01-config.ini)
+ include test file 2 for IniFile (use with 01-config.ini)
+
+1. Runde (nichtdestruktiv), mit Default-Fallback '(null)':
+Schluessel <Key1>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[ ]Key2>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <Test>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <logfile>:
+  Schluessel ohne Default      : <t\01-general.log>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <errfile>:
+  Schluessel ohne Default      : <t\01-general.err>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[]Test>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[dummy]Test>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[dummy]Testdir>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <Test2>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+
+2. Runde (nichtdestruktiv), mit Fallback '':
+Schluessel <Key1>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[ ]Key2>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <Test>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <logfile>:
+  Schluessel ohne Default      : <t\01-general.log>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <errfile>:
+  Schluessel ohne Default      : <t\01-general.err>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[]Test>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[dummy]Test>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[dummy]Testdir>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <Test2>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+
+Anzahl Kommentare: 4
+ test file 1 for IniFile
+ include test file 1 for IniFile (use with 01-config.ini)
+ include test file 2 for IniFile (use with 01-config.ini)
+Dies ist ein neuer Kommentar
+
+Schreibe neue Ini-Datei t\01-general.ini.new
+
+INI-Werte nach Destroy: 0
+Schluessel <Key1>: <nix>
+Schluessel <[ ]Key2>: <nix>
+Schluessel <Test>: <nix>
+Schluessel <logfile>: <nix>
+Schluessel <errfile>: <nix>
+Schluessel <[]Test>: <nix>
+Schluessel <[dummy]Test>: <nix>
+Schluessel <[dummy]Testdir>: <nix>
+Schluessel <Test2>: <nix>

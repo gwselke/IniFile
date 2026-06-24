@@ -1,0 +1,81 @@
+
+Liste aller Schluessel:
+
+Liste der Abschnitte:
+
+Anzahl Kommentare: 0
+
+1. Runde (nichtdestruktiv), mit Default-Fallback '(null)':
+Schluessel <Key1>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[ ]Key2>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <Test>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <logfile>:
+  Schluessel ohne Default      : <IniFile.log>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <errfile>:
+  Schluessel ohne Default      : <IniFile.err>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[]Test>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[dummy]Test>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[dummy]Testdir>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <Test2>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+
+2. Runde (nichtdestruktiv), mit Fallback '':
+Schluessel <Key1>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[ ]Key2>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <Test>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <logfile>:
+  Schluessel ohne Default      : <IniFile.log>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <errfile>:
+  Schluessel ohne Default      : <IniFile.err>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[]Test>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[dummy]Test>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[dummy]Testdir>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <Test2>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+
+Anzahl Kommentare: 1
+Dies ist ein neuer Kommentar
+
+Schreibe Ini-Datei nach stdout
+# Dies ist ein neuer Kommentar
+
+INI-Werte nach Destroy: 0
+Schluessel <Key1>: <nix>
+Schluessel <[ ]Key2>: <nix>
+Schluessel <Test>: <nix>
+Schluessel <logfile>: <nix>
+Schluessel <errfile>: <nix>
+Schluessel <[]Test>: <nix>
+Schluessel <[dummy]Test>: <nix>
+Schluessel <[dummy]Testdir>: <nix>
+Schluessel <Test2>: <nix>

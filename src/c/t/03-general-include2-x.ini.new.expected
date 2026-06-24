@@ -1,0 +1,9 @@
+#  test file 3 for IniFile: fallbacks
+#  alternative comment
+#  still a different form of comment
+#  include test file 2 for IniFile (use with 03-config.ini)
+# Dies ist ein neuer Kommentar
+TEST=wert1
+[DUMMY]
+TEST2=wert2
+TESTDIR=wert3

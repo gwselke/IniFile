@@ -1,0 +1,14 @@
+INI-Datei: t\03-general.ini; kumulierte Anzahl Schluessel/Abschnitte: 3/2
+INI-Datei: t\03-include3.ini; kumulierte Anzahl Schluessel/Abschnitte: 3/2
+
+Liste aller Schluessel:
+Schluessel <TEST>: <wert1>
+Schluessel <[DUMMY]TEST2>: <wert2>
+Schluessel <[DUMMY]TESTDIR>: <wert3>
+
+Liste der Abschnitte:
+<>: 1 Schluessel
+  Schluessel <TEST>: <wert1>
+<[DUMMY]>: 2 Schluessel
+  Schluessel <[DUMMY]TEST2>: <wert2>
+  Schluessel <[DUMMY]TESTDIR>: <wert3>

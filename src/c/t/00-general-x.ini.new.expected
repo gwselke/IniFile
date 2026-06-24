@@ -1,0 +1,23 @@
+#  test file 0 for IniFile
+# Dies ist ein neuer Kommentar
+ERRFILE=/foo/bar\my.err
+KEY1=wert1
+KEY10=more test
+KEY11=
+KEY12=
+KEY2="wert2
+KEY3=
+KEY4=bla#bla
+KEY5=blabla #
+KEY6=test2
+KEY7=key7a
+KEY8=key8a
+KEY9=test\tspace
+TESTDIR1=/foo/bar
+TESTDIR2=/foo/bar/
+TESTDIR3=/foo/bar\
+[SECTIONA]
+KEY1=key1a
+KEY2=key2x
+[SECTIONB]
+KEY1=key1b

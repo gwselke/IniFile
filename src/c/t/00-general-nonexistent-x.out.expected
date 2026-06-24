@@ -1,0 +1,125 @@
+INI-Datei: t\00-general.ini; kumulierte Anzahl Schluessel/Abschnitte: 19/3
+INI-Datei: t\nonexistent.ini; kumulierte Anzahl Schluessel/Abschnitte: 19/3
+
+Liste aller Schluessel:
+Schluessel <ERRFILE>: </foo/bar\my.err>
+Schluessel <KEY1>: <wert1>
+Schluessel <KEY10>: <more test>
+Schluessel <KEY11>: <>
+Schluessel <KEY12>: <>
+Schluessel <KEY2>: <"wert2>
+Schluessel <KEY3>: <>
+Schluessel <KEY4>: <bla#bla>
+Schluessel <KEY5>: <blabla #>
+Schluessel <KEY6>: <test2>
+Schluessel <KEY7>: <key7a>
+Schluessel <KEY8>: <key8a>
+Schluessel <KEY9>: <test\tspace>
+Schluessel <TESTDIR1>: </foo/bar>
+Schluessel <TESTDIR2>: </foo/bar/>
+Schluessel <TESTDIR3>: </foo/bar\>
+Schluessel <[SECTIONA]KEY1>: <key1a>
+Schluessel <[SECTIONA]KEY2>: <key2x>
+Schluessel <[SECTIONB]KEY1>: <key1b>
+
+Liste der Abschnitte:
+<>: 16 Schluessel
+  Schluessel <ERRFILE>: </foo/bar\my.err>
+  Schluessel <KEY1>: <wert1>
+  Schluessel <KEY10>: <more test>
+  Schluessel <KEY11>: <>
+  Schluessel <KEY12>: <>
+  Schluessel <KEY2>: <"wert2>
+  Schluessel <KEY3>: <>
+  Schluessel <KEY4>: <bla#bla>
+  Schluessel <KEY5>: <blabla #>
+  Schluessel <KEY6>: <test2>
+  Schluessel <KEY7>: <key7a>
+  Schluessel <KEY8>: <key8a>
+  Schluessel <KEY9>: <test\tspace>
+  Schluessel <TESTDIR1>: </foo/bar>
+  Schluessel <TESTDIR2>: </foo/bar/>
+  Schluessel <TESTDIR3>: </foo/bar\>
+<[SECTIONA]>: 2 Schluessel
+  Schluessel <[SECTIONA]KEY1>: <key1a>
+  Schluessel <[SECTIONA]KEY2>: <key2x>
+<[SECTIONB]>: 1 Schluessel
+  Schluessel <[SECTIONB]KEY1>: <key1b>
+
+Anzahl Kommentare: 1
+ test file 0 for IniFile
+
+1. Runde (nichtdestruktiv), mit Default-Fallback '(null)':
+Schluessel <Key1>:
+  Schluessel ohne Default      : <wert1>
+  Schluessel mit  Default 'nix': <wert1>
+Schluessel <[ ]Key2>:
+  Schluessel ohne Default      : <"wert2>
+  Schluessel mit  Default 'nix': <"wert2>
+Schluessel <Test>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <logfile>:
+  Schluessel ohne Default      : <t\00-general.log>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <errfile>:
+  Schluessel ohne Default      : </foo/bar\my.err>
+  Schluessel mit  Default 'nix': </foo/bar\my.err>
+Schluessel <[]Test>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[dummy]Test>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[dummy]Testdir>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <Test2>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+
+2. Runde (nichtdestruktiv), mit Fallback '':
+Schluessel <Key1>:
+  Schluessel ohne Default      : <wert1>
+  Schluessel mit  Default 'nix': <wert1>
+Schluessel <[ ]Key2>:
+  Schluessel ohne Default      : <"wert2>
+  Schluessel mit  Default 'nix': <"wert2>
+Schluessel <Test>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <logfile>:
+  Schluessel ohne Default      : <t\00-general.log>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <errfile>:
+  Schluessel ohne Default      : </foo/bar\my.err>
+  Schluessel mit  Default 'nix': </foo/bar\my.err>
+Schluessel <[]Test>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[dummy]Test>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <[dummy]Testdir>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+Schluessel <Test2>:
+  Schluessel ohne Default      : <>
+  Schluessel mit  Default 'nix': <nix>
+
+Anzahl Kommentare: 2
+ test file 0 for IniFile
+Dies ist ein neuer Kommentar
+
+Schreibe neue Ini-Datei t\00-general.ini.new
+
+INI-Werte nach Destroy: 0
+Schluessel <Key1>: <nix>
+Schluessel <[ ]Key2>: <nix>
+Schluessel <Test>: <nix>
+Schluessel <logfile>: <nix>
+Schluessel <errfile>: <nix>
+Schluessel <[]Test>: <nix>
+Schluessel <[dummy]Test>: <nix>
+Schluessel <[dummy]Testdir>: <nix>
+Schluessel <Test2>: <nix>
