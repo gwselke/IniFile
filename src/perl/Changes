@@ -1,0 +1,36 @@
+Revision history for Perl module Config::IniFile::Subst.
+
+1.0.1 2026-06-24 Minor updates to build system; switched to
+                 proper semantic versioning; removed deprecated signature.
+1.0.0 2015-11-16 Removed minor bitrot, including references to $[
+                   (causing possibly incompatibilty in programmes that
+                   changed $[ globally; but nobody did that).
+                 Implemented (finally) resolve_escapes pragma,
+                   catching up once more with the C library.
+                 Make code pass perlcritic --harsh (almost).
+                 Expanded unit tests.
+                 Switched to x.yyy versioning.
+0.90  2011-03-02 Refactorisation from IniFile into Config::IniFile::Subst
+                 Squashed bug not updating section names when
+                   programmatically creating new sections.
+                 Killed bug when explicitly addressing the unnamed section.
+                 Unglitched non-standard-spelling section specifiers.
+                 Comment lines read will be written to output file.
+                 Added access to comment lines.
+                 Removed load option nodeprecate (not a good idea).
+                 Implemented (finally) include: and fallback: pragmata,
+                   catching up with the C library.
+0.12  2011-02-26 Removal of some bit rot.
+                 Make code pass perlcritic --gentle.
+                 Revamped test suite.
+                 Deprecate fix_dir_delim and add_dir_delim.
+                 Removed performance penalty on regexen
+                   caused by use of $`, $& and $'.
+                 As a consequence, now requires Perl 5.10.0.
+                 Added load options nodeprecate, debug.
+                 Removed bug that could cause LOGFILE/ERRFILE to
+                   take their default values from some other file
+                   than that containing the main programme.
+                   ***INCOMPATIBLE CHANGE***
+0.11  2003-10-01 Minor tweaks.
+0.1   1999-09-04 Original version.

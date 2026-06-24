@@ -1,0 +1,39 @@
+---
+abstract: 'Flexible Processing of Windows-style ini files with substitution of variables'
+author:
+  - unknown
+build_requires:
+  ExtUtils::MakeMaker: '0'
+  Test::More: '0.82'
+configure_requires:
+  ExtUtils::MakeMaker: '6.64'
+dynamic_config: 0
+generated_by: 'ExtUtils::MakeMaker version 7.78, CPAN::Meta::Converter version 2.150013'
+license: artistic_2
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Config-IniFile-Subst
+no_index:
+  directory:
+    - t
+    - inc
+provides:
+  Config::IniFile::Subst:
+    file: lib/Config/IniFile/Subst.pm
+    version: v1.0.1
+requires:
+  Carp: '0'
+  File::Spec: '0'
+  IO::File: '0'
+  IO::Handle: '0'
+  Module::Build: '0.42'
+  Test::More: '0'
+  parent: '0'
+  perl: '5.001'
+  version: '0.77'
+resources:
+  bugtracker: https://github.com/gwselke/IniFile/issues
+  repository: https://github.com/gwselke/IniFile.git
+version: v1.0.1
+x_serialization_backend: 'CPAN::Meta::YAML version 0.020'

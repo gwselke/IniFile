@@ -1,0 +1,80 @@
+{
+   "abstract" : "Flexible Processing of Windows-style ini files with substitution of variables",
+   "author" : [
+      "unknown"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "ExtUtils::MakeMaker version 7.78, CPAN::Meta::Converter version 2.150013",
+   "license" : [
+      "artistic_2"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : 2
+   },
+   "name" : "Config-IniFile-Subst",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.64"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Carp" : "0",
+            "File::Spec" : "0",
+            "IO::File" : "0",
+            "IO::Handle" : "0",
+            "Module::Build" : "0.42",
+            "Test::More" : "0",
+            "parent" : "0",
+            "perl" : "5.001",
+            "version" : "0.77"
+         }
+      },
+      "test" : {
+         "recommends" : {
+            "Test::CPAN::Changes" : "0",
+            "Test::CPAN::Meta" : "0",
+            "Test::CPAN::Meta::JSON" : "0",
+            "Test::CheckManifest" : "0",
+            "Test::CheckVersion" : "0",
+            "Test::Pod" : "1.22",
+            "Test::Pod::Coverage" : "1"
+         },
+         "requires" : {
+            "Test::More" : "0.82"
+         }
+      }
+   },
+   "provides" : {
+      "Config::IniFile::Subst" : {
+         "file" : "lib/Config/IniFile/Subst.pm",
+         "version" : "v1.0.1"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/gwselke/IniFile/issues"
+      },
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/gwselke/IniFile.git",
+         "web" : "https://github.com/gwselke/IniFile"
+      }
+   },
+   "version" : "v1.0.1",
+   "x_serialization_backend" : "JSON::PP version 4.18"
+}
